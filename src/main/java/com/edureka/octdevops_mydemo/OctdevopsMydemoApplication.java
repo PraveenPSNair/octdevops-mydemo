@@ -17,4 +17,10 @@ public class OctdevopsMydemoApplication {
     public String hello() {
       return String.format("<h1>Hello There, Welcome to my project<h1>");
     }
+	
+	//branch demo
+	@GetMapping("/welcome")
+    public String welcome() {
+      return String.format("<h1>Welcome to the world of DevOps!!!<h1>");
+    }
 }
