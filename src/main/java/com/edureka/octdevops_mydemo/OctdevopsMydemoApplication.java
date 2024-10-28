@@ -13,8 +13,8 @@ public class OctdevopsMydemoApplication {
 		SpringApplication.run(OctdevopsMydemoApplication.class, args);
 	}
 
-	@GetMapping("/")
-    public String hello() {//from d11 by dev-2
+	@GetMapping("/")//from c11 by dev-1 + from d11 by dev-2
+    public String hello() {
       return String.format("<h1>Hello There, Welcome to my project<h1>");
     }
 	
